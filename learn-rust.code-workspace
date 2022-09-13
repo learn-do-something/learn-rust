@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.guides.bracketPairs": true,
+		"editor.bracketPairColorization.enabled": true
+	},
+	"extensions": {
+		"recommendations": [
+			"monokai.theme-monokai-pro-vscode",
+			"emmanuelbeziat.vscode-great-icons",
+			"wmaurer.change-case",
+			"naumovs.color-highlight",
+			"swellaby.vscode-rust-test-adapter",
+			"k--kato.intellij-idea-keybindings",
+			"oderwat.indent-rainbow"
+		]
+	}
+}

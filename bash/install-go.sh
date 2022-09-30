@@ -20,20 +20,22 @@ go version
 go env
 
 # https://medium.com/@jeremiedaniel48/how-to-set-up-gopath-and-goroot-for-go-and-how-to-run-test-on-quic-go-dd9808b44efe
-export GOROOT="/usr/local/go"
 mkdir "$HOME/go"
+GO_EXPORT="
+export GOROOT="/usr/local/go"
 export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
 export PATH=$PATH:$GOBIN
 export PATH=$PATH:$GOROOT/bin
 export GO111MODULE=on
-
+export PATH=$PATH:$GOROOT/bin:$GOBIN
+"
 # sudo nano $HOME/.profile
 # add end line in file .profile
 # export PATH=$PATH:/usr/local/go/bin
-echo 'export PATH=$PATH:$GOROOT/bin:$GOBIN' >> $HOME/.profile
-echo 'export PATH=$PATH:$GOROOT/bin:$GOBIN' >> $HOME/.bashrc
-echo 'export PATH=$PATH:$GOROOT/bin:$GOBIN' >> $HOME/.zshrc
+echo $GO_EXPORT >> $HOME/.profile
+echo $GO_EXPORT >> $HOME/.bashrc
+echo $GO_EXPORT >> $HOME/.zshrc
 
 # source $HOME/.profile
 # source $HOME/.bashrc

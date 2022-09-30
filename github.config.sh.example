@@ -1,0 +1,6 @@
+#! /bash/bin
+
+export GITHUB_USER=
+export GITHUB_TOKEN=
+export GIT_USERNAME=
+export GIT_EMAIL=

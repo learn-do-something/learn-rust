@@ -6,7 +6,9 @@
 	],
 	"settings": {
 		"editor.guides.bracketPairs": true,
-		"editor.bracketPairColorization.enabled": true
+		"editor.bracketPairColorization.enabled": true,
+		"local-history.daysLimit": 10,
+		"local-history.maxDisplay": 5
 	},
 	"extensions": {
 		"recommendations": [
@@ -16,7 +18,11 @@
 			"naumovs.color-highlight",
 			"swellaby.vscode-rust-test-adapter",
 			"k--kato.intellij-idea-keybindings",
-			"oderwat.indent-rainbow"
+			"oderwat.indent-rainbow",
+			"xyz.local-history",
+			"isudox.vscode-jetbrains-keybindings",
+			"beardedbear.beardedicons",
+			"BeardedBear.beardedtheme"
 		]
 	}
 }

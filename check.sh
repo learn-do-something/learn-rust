@@ -8,6 +8,13 @@ echo "Who am I? [whoami]"
 whoami
 
 echo "==================================="
+echo "Git Hub Config"
+echo $GITHUB_USER
+echo $GITHUB_TOKEN
+echo $GIT_USERNAME
+echo $GIT_EMAIL
+
+echo "==================================="
 echo "Go Version [go version]"
 go version
 

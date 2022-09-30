@@ -6,6 +6,9 @@
         "naumovs.color-highlight",
         "swellaby.vscode-rust-test-adapter",
         "k--kato.intellij-idea-keybindings",
-        "oderwat.indent-rainbow"
+        "oderwat.indent-rainbow",
+        "xyz.local-history",
+        "beardedbear.beardedicons",
+        "BeardedBear.beardedtheme"
     ]
 }

@@ -10,3 +10,8 @@ Cargo.lock
 **/*.rs.bk
 
 .history/
+github.config.sh
+go/
+video/
+project/*
+!project/.gitkeep

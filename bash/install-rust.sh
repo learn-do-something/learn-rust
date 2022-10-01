@@ -9,6 +9,8 @@ echo 'source "$HOME/.cargo/env"' >> $HOME/.profile
 echo 'source "$HOME/.cargo/env"' >> $HOME/.bashrc
 echo 'source "$HOME/.cargo/env"' >> $HOME/.zshrc
 
+source "$HOME/.cargo/env"
+
 rustup --version
 rustc --version
 cargo --version

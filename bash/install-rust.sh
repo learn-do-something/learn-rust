@@ -5,8 +5,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # https://dev.to/kaiwalter/install-rust-toolchain-management-with-cloud-init-on-an-linux-azure-vm-2o51
 # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | bash -s -- -y --no-modify-path --default-toolchain stable --profile default
 
-
-source "$HOME/.cargo/env"
+echo 'source "$HOME/.cargo/env"' >> $HOME/.profile
+echo 'source "$HOME/.cargo/env"' >> $HOME/.bashrc
+echo 'source "$HOME/.cargo/env"' >> $HOME/.zshrc
 
 rustup --version
 rustc --version
